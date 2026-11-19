@@ -20,14 +20,14 @@ tokens: origin and destination on **Base Sepolia**, the reactive contract on
 |---|---|
 | Public repo | https://github.com/maungzy86/reactive-guard |
 | Demo video (< 3 min) | _TODO: link_ |
-| PriceFeed (Base Sepolia) | _TODO: address_ |
-| MockDex (Base Sepolia) | _TODO: address_ |
-| StopLossVault (Base Sepolia) | _TODO: address_ |
-| ReactiveGuard (Lasna) | _TODO: address_ |
-| Origin event tx (`updatePrice`) | _TODO: tx hash_ |
-| Reactive tx (Lasna, `react()` + `CallbackRequest`) | _TODO: tx hash_ |
-| Callback tx (Base Sepolia, `executeExit`) | _TODO: tx hash_ |
-| Measured full-loop latency | _TODO: seconds (vault's on-chain `loopLatencySeconds`)_ |
+| PriceFeed (Base Sepolia) | `0xaC4Ea4207934a058422FF592350C20155Cd1Ca9B` |
+| MockDex (Base Sepolia) | `0x21f855e233624f10d9c8f2Ed49E4Dc08F8f059Ff` |
+| StopLossVault (Base Sepolia) | `0xA0d771B200606ee9611bdEd59Dec6a455C44d95d` |
+| ReactiveGuard (Lasna) | `0xbCB5964894Fe6CcFa26f400130DC32dE5C76bD71` |
+| Origin event tx (`updatePrice`) | `0xb52343f511b0aea54e8d3447268957710d66947cce640280721d7e72349bceb4` |
+| Reactive tx (Lasna, `react()` + `CallbackRequest`) | `0xec30518925864b5b1bd18458f3b1ecdaf146aba95ecaa6a9e609623692d8f40f` |
+| Callback tx (Base Sepolia, `executeExit`) | _Pending — requested on Lasna 2026-11-19 19:19 UTC; the testnet relayer had not delivered as of the last check (see DEPLOY-RESULTS.md)_ |
+| Measured full-loop latency | _Pending callback delivery — the vault's on-chain `loopLatencySeconds` reads once the exit executes (see DEPLOY-RESULTS.md)_ |
 
 ## The problem
 
