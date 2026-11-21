@@ -18,7 +18,7 @@ tokens: origin and destination on **Base Sepolia**, the reactive contract on
 
 | Item | Value |
 |---|---|
-| Public repo | https://github.com/maungzy86/reactive-guard |
+| Public repo | https://github.com/zynthlabsio/reactive-guard |
 | Demo video (< 3 min) | _TODO: link_ |
 | PriceFeed (Base Sepolia) | `0xaC4Ea4207934a058422FF592350C20155Cd1Ca9B` |
 | MockDex (Base Sepolia) | `0x21f855e233624f10d9c8f2Ed49E4Dc08F8f059Ff` |
